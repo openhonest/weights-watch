@@ -1,0 +1,16 @@
+# Your real config and readings (start from the .example.json files)
+config.json
+intheweights.json
+
+# Run history and generated report
+runs/
+report.md
+run.log
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
