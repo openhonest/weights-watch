@@ -31,7 +31,7 @@ The report also quotes actual hallucinations from the panel, because the specifi
 You need an [OpenRouter](https://openrouter.ai) API key (one key reaches GPT, Claude, Gemini, Llama, Mistral, Qwen, DeepSeek, and more, pay-per-use, a few cents per run) and [uv](https://github.com/astral-sh/uv).
 
 ```bash
-git clone https://github.com/adamzwasserman/weights-watch
+git clone https://github.com/openhonest/weights-watch
 cd weights-watch
 cp config.example.json config.json     # then edit: your models and entities
 export OPENROUTER_API_KEY=sk-or-...     # or put it in a local .env
