@@ -14,3 +14,7 @@ run.log
 __pycache__/
 *.pyc
 .venv/
+
+# Session-context aids (Open Honest convention), not release artefacts
+.agents.md
+CLAUDE.md
